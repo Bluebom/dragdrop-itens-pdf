@@ -4,50 +4,64 @@
             "id": 480,
             "description": "RAPINA",
             "value": "X",
-            "xPosition": 120,
-            "yPosition": 356.30732860520095
+            "xPosition": 119,
+            "yPosition": 355.31205673758865,
+            "xInitialPosition": 32,
+            "yInitialPosition": 46
         },
         {
             "id": 483,
             "description": "POSTA_REGISTRATA",
             "value": "X",
-            "xPosition": 926,
-            "yPosition": 550.3853427895981
+            "xPosition": 1007,
+            "yPosition": 304.5531914893617,
+            "xInitialPosition": 628,
+            "yInitialPosition": 46
         },
         {
             "id": 485,
             "description": "DATA_ALERT",
             "value": "data alert",
-            "xPosition": 68,
-            "yPosition": 489.6737588652482
+            "xPosition": 97,
+            "yPosition": 490.6690307328605,
+            "xInitialPosition": 32,
+            "yInitialPosition": 76
         },
         {
             "id": 486,
             "description": "UP",
             "value": "UP",
-            "xPosition": 1015,
-            "yPosition": 305.54846335697397
+            "xPosition": 929.9718658928323,
+            "yPosition": 532.7742053763966,
+            "xInitialPosition": 628,
+            "yInitialPosition": 76
         },
         {
             "id": 488,
             "description": "DATA_MP",
             "value": "DATA1",
-            "xPosition": 383,
-            "yPosition": 355.31205673758865
+            "xPosition": 428,
+            "yPosition": 486.68794326241135,
+            "xInitialPosition": 32,
+            "yInitialPosition": 106
         },
         {
             "id": 489,
             "description": "AL_QUALITA",
             "value": "AL_QUALITA",
-            "xPosition": 1035,
-            "yPosition": 550.3853427895981
+            "xPosition": 967,
+            "yPosition": 532.4704491725769,
+            "xInitialPosition": 628,
+            "yInitialPosition": 106
         },
         {
             "id": 490,
             "description": "CAUSAL_G60",
             "value": "X",
-            "xPosition": 384,
-            "yPosition": 489.6737588652482
+            "xPosition": 383,
+            "yPosition": 355.31205673758865,
+            "xInitialPosition": 32,
+            "yInitialPosition": 136
         }
     ]
 }

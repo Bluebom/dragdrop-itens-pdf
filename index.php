@@ -15,6 +15,7 @@ $pdf->handle();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <div class="container">
@@ -33,7 +34,7 @@ $pdf->handle();
     </div>
     <div class="row">
         <div class="col-md-12" style="padding:10px">
-            <button class="btn btn-primary btn-block" onClick="showCoordinates()">Show PDF Placeholders Coordinates</button>
+            <button class="bg-teal-500 rounded-xl text-white p-2" onClick="showCoordinates()">Show PDF Placeholders Coordinates</button>
         </div>
     </div>
 </div>

@@ -169,12 +169,20 @@ function renderizzaPlaceholder(currentPage, parametri) {
         /*il placeholder non è valido: lo incolonna a sinistra*/
         y = yCounterOfGenerated;
         yCounterOfGenerated += notValidHeight;
-        classStyle = "drag-drop dropped-out";
+        classStyle = "drag-drop dropped-out responsive h-7 block -margin-bottom-{1px} bg-white border border-1 border-{rgba(0,0,0,.125)} rounded min-w-{100px} max-w-{140px} text-black";
+        // display: block;
+        // margin-bottom: -1px;
+        // background-color: #fff;
+        // border: 1px solid rgba(0,0,0,.125);
+        // min-width: 100px;
+        // max-width: 140px;
+        // color: black;
+        // padding: 5px !important;
 
         let parametriContainer = document.getElementById("parametriContainer");
         let div = document.createElement("div");
-        const inX = Math.floor(param.xPosition),
-            inY = Math.floor(param.yPosition);
+        const inX = Math.floor(param.xInitialPosition),
+            inY = Math.floor(param.yInitialPosition);
         div.className = classStyle;
         div.setAttribute("data-id", `${param.id}`);
         div.setAttribute("data-page", page);
@@ -185,14 +193,22 @@ function renderizzaPlaceholder(currentPage, parametri) {
         div.style.transform = "translate(" + inX + "px, " + inY + "px)";
         div.style.display = display;
 
-        let spanCircle = document.createElement("span");
-        spanCircle.className = "circle";
+        let edit = document.createElement("button");
+        edit.setAttribute("data-id", `${param.id}`);
+        edit.className = 'bg-sky-500 hover:bg-sky-400 hover:cursor-pointer h-7 p-1 text-white rounded absolute -right-14 translate-x-{100%} top-0 text-sm'
+        edit.innerHTML = "editar";
+
+        let exclude = document.createElement("button");
+        exclude.setAttribute("data-id", `${param.id}`);
+        exclude.className = 'bg-red-500 hover:bg-red-400 hover:cursor-pointer h-7 p-1 text-white rounded absolute -right-28 translate-x-{100%} top-0 text-sm'
+        exclude.innerHTML = "excluir";
 
         let spanDescrizione = document.createElement("span");
         spanDescrizione.className = "description";
         spanDescrizione.textContent = param.description;
 
-        div.appendChild(spanCircle);
+        div.appendChild(edit);
+        div.appendChild(exclude);
         div.appendChild(spanDescrizione);
 
         parametriContainer.appendChild(div);

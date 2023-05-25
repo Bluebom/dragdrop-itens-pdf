@@ -80,8 +80,10 @@
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
-    width: 100px;
+    min-width: 100px;
+    max-width: 140px;
     color: black;
+    padding: 5px !important;
 }
 
 
@@ -95,9 +97,18 @@
     margin-bottom: -31px !important;
 }
 
-.description {
-    font-size: 9px !important;
+.dropped-out .description {
+    font-size: 12px !important;
 }
+
+.can-drop .description {
+    font-size: 8px !important;
+}
+
+.can-drop button{
+    display: none;
+}
+
 #the-canvas{
     display: flex;
     width: calc(595px * 2);
