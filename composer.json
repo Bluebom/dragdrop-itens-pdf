@@ -1,0 +1,21 @@
+{
+  "name": "frank/pdf-viewer",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "frank",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "require": {
+    "tecnickcom/tcpdf": "6.2.13",
+    "setasign/fpdi": "^2.0"
+  }
+}

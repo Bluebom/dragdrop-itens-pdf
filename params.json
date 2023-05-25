@@ -1,0 +1,53 @@
+{
+    "params": [
+        {
+            "id": 480,
+            "description": "RAPINA",
+            "value": "X",
+            "xPosition": 120,
+            "yPosition": 356.30732860520095
+        },
+        {
+            "id": 483,
+            "description": "POSTA_REGISTRATA",
+            "value": "X",
+            "xPosition": 926,
+            "yPosition": 550.3853427895981
+        },
+        {
+            "id": 485,
+            "description": "DATA_ALERT",
+            "value": "data alert",
+            "xPosition": 68,
+            "yPosition": 489.6737588652482
+        },
+        {
+            "id": 486,
+            "description": "UP",
+            "value": "UP",
+            "xPosition": 1015,
+            "yPosition": 305.54846335697397
+        },
+        {
+            "id": 488,
+            "description": "DATA_MP",
+            "value": "DATA1",
+            "xPosition": 383,
+            "yPosition": 355.31205673758865
+        },
+        {
+            "id": 489,
+            "description": "AL_QUALITA",
+            "value": "AL_QUALITA",
+            "xPosition": 1035,
+            "yPosition": 550.3853427895981
+        },
+        {
+            "id": 490,
+            "description": "CAUSAL_G60",
+            "value": "X",
+            "xPosition": 384,
+            "yPosition": 489.6737588652482
+        }
+    ]
+}
